@@ -15,6 +15,18 @@ class CommandShell(cmd.Cmd):
         """Quit command to exit program"""
         return True and '\n'
 
+    def to_create(self, line):
+        pass
+    
+    def to_retrieve(self, line):
+        pass
+
+    def to destroy(self, line):
+        pass
+
+    def to_update(self, line):
+        pass
+
 
 if __name__ == '__main__':
     CommandShell().cmdloop()
