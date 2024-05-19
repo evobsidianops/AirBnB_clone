@@ -2,6 +2,7 @@
 
 import cmd
 
+
 class CommandShell(cmd.Cmd):
     """Command line interpreter for managing Airbnb objects"""
     prompt = '(hbnb) '
@@ -14,6 +15,6 @@ class CommandShell(cmd.Cmd):
         """Quit command to exit program"""
         return True and '\n'
 
+
 if __name__ == '__main__':
     CommandShell().cmdloop()
-    print()
